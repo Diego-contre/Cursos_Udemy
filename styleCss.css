@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+
+}
+
+
+/*Seleccionar id (utilizar # para los ID)*/
+#parrafo{
+    color: crimson;
+
+}
+
+
+/*Seleccionar class (utilizar "." si te refieres a una clase)*/
+.etiqueta{
+    color: blue;
+}
+
+.caja{
+    margin: 8px;/*contenido por afuera*/
+    padding: 15px;/*contenido por dentro*/
+
+    height: 100px; /*alto*/
+    width: 100px; /*ancho*/
+    color: blue; /*color de texto*/
+
+    border-style: solid; /*estilo de borde*/
+    border-width: 8px; /*ancho de borde*/
+    border-color: black; /*color de borde*/
+    border-radius: 8px; /*curvatura de las puntas de la caja*/
+    background-color: crimson;/*color de fondo*/
+    
+}

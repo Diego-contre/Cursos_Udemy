@@ -1,0 +1,54 @@
+body{
+    background-color: darkslategray;
+
+}
+
+hr{
+    background-color: red;
+
+}
+
+h1{
+    text-align: left;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;/*Deja la primera letra en mayu*/
+    letter-spacing: 5px;/*Espacio entre las letras*/
+    /*line-height: 5px; alto entre lineas*/
+    
+}
+
+p{
+    text-align: justify;
+    word-spacing: 10px; /*Espacio entre las palabras*/
+    text-shadow: 5px rgba(0,0,0,0.1);
+    font-size: 25px;
+}
+
+header{
+    margin: 8px;
+    padding: 15px;
+    background-color: aliceblue;
+    border-radius: 5px;
+
+}
+.btnAceptar{
+    background-color:dodgerblue;
+    color: white;
+    padding: 5px;
+    margin: 8px;
+    border: 0px;
+    font-family: 'Times New Roman';
+}
+
+.btnCancelar{
+    background-color: crimson;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    font-family: 'Times New Roman';
+
+}
